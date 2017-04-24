@@ -1,0 +1,292 @@
+/********************************************************
+                        GENERAL
+*********************************************************/
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Hind', sans-serif;
+  font-weight: 400;
+  font-size: 1.75em;
+  letter-spacing: 0.1em;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+}
+
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/********************************************************
+                        LANDING
+*********************************************************/
+
+.landing {
+  background-image: url(http://del.h-cdn.co/assets/15/46/1447442532-delish-dessert-dips-ice-cream-sundae-recipe.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-bottom: 150px;
+
+}
+
+.landing h1 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.landing p {
+  margin: 20px 0;
+}
+
+.intro {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin: auto;
+}
+
+.form {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 40px auto 0;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  background: none;
+  width: 90%;
+  border: none;
+  color: black;
+}
+
+.form .btn {
+  background-color: #2EC0F9;
+  font-size: 1.5em;
+  width: 90%;
+  margin-top: 10px;
+}
+
+/* rounded corners on input fields */
+.rounded {
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/********************************************************
+                        QUOTES
+*********************************************************/
+
+.referral {
+  text-align: center;
+  background-color: #c775c0;
+  padding: 50px 0;
+}
+
+.quote {
+  color: white;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 50px;
+}
+
+.last-quote {
+  margin-bottom: 0;
+}
+
+.glyphicon {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.see-more {
+  background-color: rgb(47, 187, 248);
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+
+}
+
+.see-more h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/********************************************************
+                        SLIDESHOW
+*********************************************************/
+
+.showcase ul {
+  list-style: none;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 10px 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.showcase {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.showcase img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin: 5px 10px;
+}
+
+.showcase img:hover {
+  border: 3px solid #2EC0F9;
+}
+
+/********************************************************
+                    SLIDESHOW IMAGES
+*********************************************************/
+
+.double {
+  background-image: url(images/double.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banana {
+  background-image: url(images/banana.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.granola {
+  background-image: url(images/granola.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.smarties {
+  background-image: url(images/smarties.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sprinkles {
+  background-image: url(images/sprinkles.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.strawberry {
+  background-image: url(images/strawberry.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/********************************************************
+                        FOOTER
+*********************************************************/
+
+.footer {
+  font-family: serif;
+  background-color: rgb(55, 55, 55);
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.footer span {
+  color: #2EC0F9;
+  display: block;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.social {
+  color: #2EC0F9;
+  font-size: 1.7em;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+/********************************************************
+                    MEDIA QUERIES
+*********************************************************/
+
+@media only screen and (min-width: 760px) {
+
+  .showcase {
+    height: 600px;
+  }
+
+  .showcase ul {
+    margin-top: 115px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+
+  .showcase {
+    height: 700px;
+  }
+
+  .showcase ul {
+    margin-top: 170px;
+  }
+
+  .landing {
+    height: 100vh;
+  }
+
+  .intro {
+    display: inline-block;
+    width: 50%;
+    margin: 75px 2.5%;
+  }
+
+  .form {
+    display: inline-block;
+    width: 390px;
+    float: right;
+    margin: 200px 2.5%;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+
+  .intro {
+    width: 550px;
+    margin-left: 5%;
+  }
+
+  .form {
+    margin-right: 5%;
+  }
+
+  .referral {
+    text-align: center;
+  }
+
+  .quote {
+    display: inline-block;
+    width: 20%;
+    margin: 2.5%;
+    vertical-align: top;
+  }
+}
+
+/*
+#2ECOF9 - sky blue
+#E18AD4 - pink
+#A7E8BD - green
+#95B8D1 - faded blue
+#F2ED6F - yellow
+*/
